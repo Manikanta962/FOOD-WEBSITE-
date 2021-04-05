@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container{
+    width: 100;
+    padding: 0;
+    margin: auto;   
+}
+
+
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+
+
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+
+
+@media (min-width:960px){
+    .container{
+        max-width: 940px;
+    }
+}
+
+
+
+@media (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
